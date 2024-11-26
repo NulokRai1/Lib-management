@@ -10,8 +10,8 @@ function BookCard({ book, borrowBook }) {
           <p>Author: {book.author}</p>
           <p>Genre: {book.genre}</p>
 
-          {/* <p>Status: {book.isAvailable ? "Available" : "Borrowed"}</p>
-          {book.isAvailable && <button onClick={() => borrowBook(book.id)}>Borrow</button>} */}
+          <p>Status: {book.isAvailable ? "Available" : "Borrowed"}</p>
+          {book.isAvailable && <button onClick={() => borrowBook(book.id)}>Borrow</button>}
         </div>
         
       </div>
