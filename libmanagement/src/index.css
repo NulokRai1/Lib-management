@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.book-card{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+.image-container{
+    margin: 10px;
+}
+.book-info{
+    margin: 10px;
+}
